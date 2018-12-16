@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    path: /test
+
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+      exclude: test/*
+      additional-paths: src/main/java
+  profiles:
+    include: person
+    active: person

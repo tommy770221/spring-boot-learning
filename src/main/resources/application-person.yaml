@@ -1,0 +1,13 @@
+person:
+  lastName: hello
+  age : 18
+  boss: false
+  birth: 2017/12/12
+  maps: {k1: vi,k2: v2}
+  lists:
+    - lisi
+    - chang
+  dog:
+    name: ${person.luckyName}_hello
+    age:  ${random.int}
+  luckyName: dogs wang wang
